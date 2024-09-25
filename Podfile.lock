@@ -1,0 +1,29 @@
+PODS:
+  - CommonUI (0.1.0):
+    - Resource
+  - Resource (0.1.0)
+  - SwiftLint (0.55.1)
+
+DEPENDENCIES:
+  - CommonUI (from `Modules/CommonUI`)
+  - Resource (from `Modules/Resource`)
+  - SwiftLint
+
+SPEC REPOS:
+  trunk:
+    - SwiftLint
+
+EXTERNAL SOURCES:
+  CommonUI:
+    :path: Modules/CommonUI
+  Resource:
+    :path: Modules/Resource
+
+SPEC CHECKSUMS:
+  CommonUI: 1a02de2308807375bae6cc8676660bd38af7234a
+  Resource: ffb2eb855c1813402adb18832021f43467ffc055
+  SwiftLint: 3fe909719babe5537c552ee8181c0031392be933
+
+PODFILE CHECKSUM: 7fab47e0df1b321ecbe804c95c6d1f8b9c708bdc
+
+COCOAPODS: 1.15.2
