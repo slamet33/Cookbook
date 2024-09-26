@@ -1,16 +1,22 @@
 PODS:
   - CommonUI (0.1.0):
     - Resource
+    - SDWebImage
   - Resource (0.1.0)
+  - SDWebImage (5.19.2):
+    - SDWebImage/Core (= 5.19.2)
+  - SDWebImage/Core (5.19.2)
   - SwiftLint (0.55.1)
 
 DEPENDENCIES:
   - CommonUI (from `Modules/CommonUI`)
   - Resource (from `Modules/Resource`)
+  - SDWebImage
   - SwiftLint
 
 SPEC REPOS:
   trunk:
+    - SDWebImage
     - SwiftLint
 
 EXTERNAL SOURCES:
@@ -20,10 +26,11 @@ EXTERNAL SOURCES:
     :path: Modules/Resource
 
 SPEC CHECKSUMS:
-  CommonUI: 1a02de2308807375bae6cc8676660bd38af7234a
-  Resource: ffb2eb855c1813402adb18832021f43467ffc055
+  CommonUI: efc3dabfc3bc45406edab4230ee8138c7c367bbd
+  Resource: 457b51147a9dff07145b9bb8fa32067a6890c295
+  SDWebImage: dfe95b2466a9823cf9f0c6d01217c06550d7b29a
   SwiftLint: 3fe909719babe5537c552ee8181c0031392be933
 
-PODFILE CHECKSUM: 7fab47e0df1b321ecbe804c95c6d1f8b9c708bdc
+PODFILE CHECKSUM: e82ee69155f07791fae8559658ee468b25501939
 
 COCOAPODS: 1.15.2

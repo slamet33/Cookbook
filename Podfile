@@ -14,6 +14,7 @@ end
 
 def development_pods
   common_pod
+  pod 'SDWebImage'
   resources_pod
 end
 
